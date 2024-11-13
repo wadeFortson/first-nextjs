@@ -1,0 +1,56 @@
+.fakestore {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc; /* Add a border around the entire store */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    max-width: 1200px; /* Optional: Sets a max width for the store container */
+    margin: 0 auto; /* Centers the store container on the page */
+    background-color: #f9f9f9; /* Optional: Light background color for the entire page */
+  }
+  
+  .fakestore h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .fakestore p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15px; /* Space between product cards */
+    margin-top: 20px;
+  }
+  
+  .productCard {
+    border: 2px solid #ddd; /* Border around each product card */
+    border-radius: 10px; /* Optional: rounded corners for product cards */
+    padding: 15px;
+    background-color: white; /* White background for the product card */
+    box-sizing: border-box;
+    max-width: 250px; /* Limit the width of each product card */
+    margin: 0 auto; /* Center the card inside the grid cell */
+  }
+  
+  .productCard img {
+    max-width: 80%; /* Limit the size of the image */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .productCard h3 {
+    font-size: 13px; /* Smaller font for the title */
+    margin: 10px 0;
+    word-wrap: break-word; /* Prevent overflow */
+  }
+  
+  .productCard p {
+    font-size: 14px; /* Adjust the price font size */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
