@@ -34,7 +34,7 @@ export default function Home() {
       }}
       />
 
-      <p>Check out my <Link href="/store"><ul>Fake Store</ul></Link>.</p>
+      <p>Check out my <Link href="/store"><u>Fake Store</u></Link>.</p>
 
 
     </div>
